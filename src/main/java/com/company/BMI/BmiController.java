@@ -36,23 +36,3 @@ public class BmiController {
 
 
 }
-
-
-//    double bmiResult = bm1.getBMI(height, weight);
-//
-//    String wynik = "";
-//        if (bmiResult < 18.5) {
-//        wynik = "Masz niedowagę, przytyj trochę!";
-//        } else if (bmiResult >= 18.6 && bmiResult <= 24.9) {
-//        wynik = "Bardzo dobrze! Masz odpowiednią wagę dla swojego wzrostu!";
-//        } else if (bmiResult >= 25 && bmiResult <= 29.9) {
-//        wynik = "Twoje BMI wynosi : " + bmiResult +
-//        "\n Masz lekka nadwagę, poćwicz!";
-//        } else if (bmiResult > 30) {
-//        wynik = "Niestety jesteś otyły, zrzuć trochę kilogramów!";
-//        }
-//        map.put("yourBMI", df.format(bmiResult));
-//        map.put("yourBM", wynik);
-//
-//        return "result";
-//        }
